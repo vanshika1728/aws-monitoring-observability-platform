@@ -11,8 +11,6 @@ The project folloes Site Reliability Engineering (SRE) principles and focuses on
 
 ## Architecture
 
-## Architecture
-
 User
    │
    ▼
