@@ -8,3 +8,30 @@ The project folloes Site Reliability Engineering (SRE) principles and focuses on
 - Traffic
 - Errors
 - Saturation
+
+## Architecture
+
+User
+ │
+ ▼
+Nginx Web Server (EC2)
+ │
+ ▼
+CloudWatch Agent
+ │
+ ├── Metrics
+ │
+ ├── Logs
+ │
+ ▼
+CloudWatch
+ │
+ ├── Dashboard
+ │
+ ├── Alarm
+ │
+ ▼
+SNS Topic
+ │
+ ▼
+Email Notification
