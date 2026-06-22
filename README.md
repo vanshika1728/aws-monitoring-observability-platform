@@ -11,6 +11,7 @@ The project folloes Site Reliability Engineering (SRE) principles and focuses on
 
 ## Architecture
 
+```text
 User
    │
    ▼
@@ -40,7 +41,7 @@ Amazon CloudWatch
              │
              ▼
       Email Notifications
-
+```
   ## AWS Services Used
 
 | Service | Purpose |
