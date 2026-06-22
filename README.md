@@ -62,6 +62,17 @@ Amazon CloudWatch
 - Follow Site Reliability Engineering (SRE) monitoring principles.
 - Improve observability and troubleshooting capabilities.
 
+## Key Features
+
+- Real-time monitoring of EC2 infrastructure
+- Collection of CPU, Memory and Disk utilization metrics
+- Centralized Nginx access and error log aggregation
+- CloudWatch dashboard visualization
+- Automated CloudWatch alarm generation
+- SNS-based email notifications
+- SRE Golden Signals monitoring approach
+- Failure simulation and alert validation
+
 ## Implementation Summary
 
 1. Launched Amazon EC2 instance running Amazon Linux.
