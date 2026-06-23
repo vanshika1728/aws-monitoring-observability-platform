@@ -102,3 +102,33 @@ Successfully implemented a cloud-native monitoring platform capable of:
 - Improved visibility into application health
 
 The solution achieved complete monitoring coverage for defined observability requirements.
+
+## Project Walkthrough
+
+### 1. EC2 Instance Running
+
+![EC2 Instance](screenshots/EC2-Instance-Running.png)
+
+### 2. Website Hosted on EC2
+
+![Website](screenshots/Website-Running.png)
+
+### 3. CloudWatch Dashboard
+
+![Dashboard](screenshots/Cloudwatch-Dashboard.png)
+
+### 4. CloudWatch Alarm Configuration
+
+![Alarm](screenshots/Cloudwatch-Alarm.png)
+
+### 5. CloudWatch Log Groups
+
+![Log Groups](screenshots/Cloudwatch-Log-Groups.png)
+
+### 6. Nginx Access Logs
+
+![Access Logs](screenshots/Cloudwatch-log-events.png)
+
+### 7. SNS Email Notification
+
+![SNS Alert](screenshots/SNS-Email-alert.png)
